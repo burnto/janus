@@ -33,6 +33,13 @@ set laststatus=2
 " This is likely a bludgeon to solve some other issue, but it works
 set noequalalways
 
+"VimClojure
+"let g:clj_highlight_builtins=1      " Highlight Clojure's builtins
+"let g:clj_paren_rainbow=1           " Rainbow parentheses'!
+let vimclojure#HighlightBuiltins=1
+let vimclojure#ParenRainbow=1
+
+
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
